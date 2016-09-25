@@ -28,6 +28,31 @@ set :mail_options, {
 }
 ```   
 
+### Jekyll contact form:   
+
+```
+<form action="https://YOUR_HEROKU_APP_NAME.herokuapp.com/send_email" class="m-b-sm-70" method="POST">
+	<div class="form-group">
+		<label>Name</label>
+		<input type="text" name="name" class="form-control" placeholder="Name" required>
+	</div>
+	<div class="form-group">
+		<label>Your Email</label>
+		<input type="email" name="email" class="form-control" placeholder="Your E-mail" required>
+	</div>
+	<div class="form-group">
+		<label>Subject</label>
+		<input type="text" name="subject" class="form-control" placeholder="Subject" required>
+	</div>
+	<div class="form-group">
+		<textarea class="form-control" name="message" rows="7" placeholder="Message" required></textarea>
+	</div>
+	<div class="text-center">
+		<input type="submit" value="Submit" class="btn btn-primary">
+	</div>
+</form>
+```
+
 ### Initialize git to deploy to your heroku account:   
 
 ```
