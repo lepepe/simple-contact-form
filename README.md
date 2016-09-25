@@ -46,4 +46,4 @@ $ heroku open --app YOUR_APP_NAME
 ```   
 
 You should see in your browser:      
-![Working](https://github.com/lepepe/simple-contact-form/working.png)
+![Working](https://raw.githubusercontent.com/lepepe/simple-contact-form/master/working.png)
